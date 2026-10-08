@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pt-variant-a"
+version = "1.1.0"
+description = "Utility package for PT applications (variant A)"
+readme = "README.md"
+requires-python = ">=3.6"
+authors = [
+    {name = "purple-team", email = "purple-team@test.com"}
+]
+
+[project.urls]
+Homepage = "https://github.com/purple-team/pt-variant-a"
